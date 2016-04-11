@@ -46,7 +46,7 @@ namespace NewMVCAppTest
         public void TestMethod3()
         {
             AccountViewModel avm = new AccountViewModel();
-            avm.Username = "abc";
+            avm.Username = "abcde";
             avm.Password = "1234";
             AccountController controller = new AccountController();
             var result = controller.Login(avm) as ViewResult;
